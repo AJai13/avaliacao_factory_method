@@ -8,7 +8,8 @@ public class RelatorioCsv implements iRelatorio {
 
     @Override
     public void definirEstrutura() {
-        System.out.println("Definindo estrutura de CSV: Colunas e Linhas.");
+        System.out.println("#-------------------------------------------------------------#");
+        System.out.println("\nDefinindo estrutura de CSV: Colunas e Linhas.");
     }
 
     @Override

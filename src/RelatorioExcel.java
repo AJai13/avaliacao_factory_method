@@ -8,7 +8,8 @@ public class RelatorioExcel implements iRelatorio {
 
     @Override
     public void definirEstrutura() {
-        System.out.println("Definindo estrutura de Excel: Planilhas, Células, Tabelas.");
+        System.out.println("#-------------------------------------------------------------#");
+        System.out.println("\nDefinindo estrutura de Excel: Planilhas, Células, Tabelas.");
     }
 
     @Override

@@ -3,11 +3,12 @@ public class RelatorioPdf implements iRelatorio {
     public void gerarRelatorio(String conteudo) {
         definirEstrutura();
         formatarConteudo(conteudo);
-        System.out.println("Relatório em PDF gerado com sucesso.");
+        System.out.println("\nRelatório em PDF gerado com sucesso.");
     }
 
     @Override
     public void definirEstrutura() {
+        System.out.println("#-------------------------------------------------------------#");
         System.out.println("Definindo estrutura de PDF: Título, Subtítulo, Corpo, Rodapé.");
     }
 
